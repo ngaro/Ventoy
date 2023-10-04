@@ -16,4 +16,4 @@ wget -q -P /opt/ https://github.com/ventoy/vtoytoolchain/releases/download/1.0/m
 date +"%Y/%m/%d %H:%M:%S"
 echo downloading environment finish...
 
-sh all_in_one.sh CI
+sh all_in_one.sh $1
