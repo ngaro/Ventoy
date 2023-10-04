@@ -2144,7 +2144,7 @@ int ventoy_fill_data(grub_uint32_t buflen, char *buffer)
     char name[32] = {0};
     char plat[32] = {0};
     char guidstr[32] = {0};
-    ventoy_guid guid = VENTOY_GUID;
+    ventoy_guid guid = { 0x20202020, 0x2020, 0x2020, { 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20 }};
     const char *fmt1 = NULL;
     const char *fmt2 = NULL;
     const char *fmt3 = NULL;    
