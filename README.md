@@ -1,3 +1,17 @@
+<b>This fork of the original Ventoy includes the following changes and the reasons behind them:</b>
+<ul>
+  <li>Removed "www.ventoy.net" from the bottom.
+    <br><i>Note: If you change the Ventoy theme, the name will no longer appear anywhere.</i>
+  </li>
+  <li>Different version numbering seeing that this is my own version.<br><i>Current version: "1.1.05", based on the original "1.0.98".</i></li>
+  <li>Updated Docker-related files and added a "build_local_with_docker.sh" script to simplify building with Docker.
+    <br><i>This feature is experimental. A pull request will be submitted to the official Ventoy repository.</i>
+  </li>
+</ul>
+Although my modifications make it easy to remove all mentions of Ventoy, I want to express my deep gratitude to the original author (and you should too).<br>That's why I kept the default Ventoy theme that still references it.<br>But in the spirit of Free Software, I believe users should have the freedom to skip mandatory "advertising".
+
+---
+
 <h1 align="center">
   <a href=https://www.ventoy.net/>Ventoy</a>
 </h1>
