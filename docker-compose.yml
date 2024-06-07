@@ -6,3 +6,4 @@ services:
     privileged: true
     volumes:
      - .:/ventoy
+    command: ["/ventoy/INSTALL/docker_build.sh", "CI"]:
